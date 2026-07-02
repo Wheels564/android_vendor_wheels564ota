@@ -1,0 +1,28 @@
+{
+    "response": [
+        {
+            "maintainer": "Wheels564",
+            "oem": "Motorola",
+            "device": "Moto G (2024)",
+            "filename": "crDroidAndroid-16.0-20260628-fogo-v12.11.zip",
+            "download": "https://sourceforge.net/projects/crdroid/files/fogo/12.x/crDroidAndroid-16.0-20260628-fogo-v12.11.zip/download",
+            "timestamp": 1782687411,
+            "md5": "ba619c6198f76a1ca08dd1c2039d233a",
+            "sha256": "9f4f98c2f6f8afb3af062a31bc3341838c1293443f85182104ae8d0d9a61bed6",
+            "size": 1375640085,
+            "version": "12.11",
+            "buildtype": "Monthly",
+            "forum": "https://xdaforums.com/t/rom-official-16-fogo-crdroid-12-for-motorola-moto-g-2024.4766311/",
+            "gapps": "https://github.com/lineageos4microg/",
+            "firmware": "",
+            "modem": "",
+            "bootloader": "",
+            "recovery": "https://sourceforge.net/projects/crdroid/files/fogo/12.x/recovery",
+            "paypal": "",
+            "telegram": "",
+            "dt": "https://github.com/Wheels564/android_device_motorola_fogo",
+            "common-dt": "https://github.com/Wheels564/android_device_motorola_sm6375-common",
+            "kernel": "https://github.com/lineageos/android_kernel_motorola_sm6375"
+        }
+    ]
+}
