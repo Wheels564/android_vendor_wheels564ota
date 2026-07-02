@@ -1,0 +1,16 @@
+Highlights & Device Specific Changes:
+Build type: Weekly
+Device: Motorola Moto G 5G
+Device maintainer: Wheels564
+
+Highlights & Device Specific Changes:
+=====================================
+== 02 July , 2026 =====
+
+- Updated to Android 16
+- Synced latest crdroid 12.11 changes
+- MicroG included
+- Kernel: Latest sm8250
+- Security Patch: June 2026
+- Known issues: None   
+
