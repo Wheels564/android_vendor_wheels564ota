@@ -13,7 +13,7 @@
       "version": "12.11",
       "buildtype": "Monthly",
       "forum": "https://forum.xda-developers.com/",
-      "gapps": "https://download.lineage.microg.org/",   
+      "gapps": "https://github.com/lineageos4microg/",   
       "firmware": "",
       "dt": "https://github.com/Wheels564/android_device_motorola_kiev",
       "common-dt": "https://github.com/Wheels564/android_device_motorola_sm7250-common",
