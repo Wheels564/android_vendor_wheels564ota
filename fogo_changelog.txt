@@ -1,88 +1,184 @@
-Highlights & Device Specific Changes:
-Build type: Monthly
-Device: Motorola Moto G 2024 (fogo)
-Device maintainer: Wheels564
-Required firmware: Android 15
+====================
+     07-06-2026
+====================
 
-===== 12-28-2025 =====
-- Update to crDroid 12.11
-- fogo: Update to V1UGS35H.75-14-3-8
-- sm6375-common: Remove unused fingerprint services
+   * bionic
+adc85bf bionic: drop long property-name warning spam
 
-===== 12-28-2025 =====
-- Update to crDroid 12.5
-- fogo: Update some soong config variables to bool type
-- fogo: Update to V1UFNS35H.193-20-4
-- fogo: Remove unused proprietary files
-- sm6375-common: Shim WFD with libinput_shim
-- sm6375-common: Update some soong config variables to bool type
-- sm6375-common: overlay: Remove Dialer overlay
-- sm6375-common: Update to V1UGS35H.75-14-3-5
-- sm6375-common: Remove unused proprietary files
-- sm6375-common: Remove machine learning blobs
-- Merge branch 'android11-5.4-lts' of https://android.googlesource.com/kernel/common into android13-5.4-lahaina
-- fixup! net: usb: rtl8150: Fix frame padding
-- tcp: Fix compiler error due to type confusion
-- Merge remote-tracking branch 'sm8350/lineage-20' into lineage-23.0
-- UPSTREAM: open: add close_range()
-- UPSTREAM: close_range: add CLOSE_RANGE_UNSHARE
-- BACKPORT: arch: wire-up close_range()
-- UPSTREAM: fs, close_range: add flag CLOSE_RANGE_CLOEXEC
-- UPSTREAM: close_range: unshare all fds for CLOSE_RANGE_UNSHARE | CLOSE_RANGE_CLOEXEC
-- UPSTREAM: file: fix close_range() for unshare+cloexec
-- UPSTREAM: file: simplify logic in __close_range()
-- UPSTREAM: fs: fd tables have to be multiples of BITS_PER_LONG
-- UPSTREAM: fs: fix fd table size alignment properly
-- UPSTREAM: close_range(): fix the logics in descriptor table trimming
-- UPSTREAM: epoll: convert internal api to timespec64
-- UPSTREAM: epoll: add syscall epoll_pwait2
-- BACKPORT: epoll: wire up syscall epoll_pwait2
-- BACKPORT: epoll: fix compat syscall wire up of epoll_pwait2
-- drivers: Add KSU config path
-- drivers: Import KernelSU Next v1.1.1
-- drivers: Set proper version for KernelSU-Next
-- kernelsu: Add susfs in gki android12-5.10
-- kernelsu: Enable susfs for ksu
-- kernelsu: Remove duplicate function to fix compilation
-- kernelsu: Allow compatible manager apks
-- kernelsu: implement v2_signature size/hash override from userspace through kernel module parameter
-- kernelsu: Fix SUS_SU feature
-- kernelsu: Use SUS_SU by default
-- kernelsu: Fix kernel panics caused by thread info flag corruption
-- kernelsu: replace renameat hook with fsnotify
-- kernelsu: pkg_observer: Add backward compatibility
-- fs: Update susfs backport for 5.4
-- fs: Backport path_umount for KernelSu
-- BACKPORT: seccomp: add filter_count field for KernelSU
-- sm6375-common: Update to fogos_g V1UGS35H.75-14-3-5
-- sm6375-common: Regen blueprints and makefiles
-- MotoActions: Convert for M3E support
-- MotoActions: Apply Expressive theme
-- StylusKeyHandler: Convert for M3E support
-- StylusKeyHandler: Apply Expressive theme
-- Revert "sepolicy: Label qcom,dp_display wakeup node"
+   * build/soong
+0cabbb4 soong: Increase ThinLTO cache to 15GB
 
-===== 12-10-2025 =====
-- Update to crDroid 12.4
-- Revert "sm6375-common: Add hardware/samsung to soong namespaces"
-- sepolicy: Commonize force_charging_disable
-- sepolicy: Commonize SEC NFC device label
-- sepolicy: Switch to AIDL SEC NFC HAL
-- sepolicy: Sort genfs_contexts
-- MotoActions: Get rid of HelpDialogFragment class
-- MotoActions: Move to PreferenceFragmentCompat
-- MotoActions: Use new method to listen for preference changes
-- sepolicy: Pull sm8475/sm8550 sepolicy rules
-- sepolicy: Allow ueventd to access audio firmware directory
-- sepolicy: Label backlight node for sm8250
-- sepolicy: Allow vendor_mmi_laser to read/setattr vendor_sysfs_input file
-- sepolicy: Allow camera HAL to write vendor_sysfs_input
-- MotoActions: Replace Activity.MODE_PRIVATE with Context.MODE_PRIVATE
-- MotoActions: Clean up imports
-- MotoActions: Fully migrate to AndroidX
+   * frameworks/base
+309246027 CarrierConfigManager: Gracefully handle missing CarrierConfigLoader
 
-===== 11-10-2025 =====
-- Update to crDroid 12.3
+   * lineage/wiki
+e4658db wiki: Update avatrn and bronco firmware requirements
 
-===== 11-01-2025 =====
-- Initial release for fogo
+   * system/core
+6a7ff2c init: Fixing abnormal state
+
+====================
+     07-05-2026
+====================
+
+   * android
+a7e64d6 Merge 'lineage-23.2' into 16.0
+
+   * hardware/qcom-caf/sm8450-6.6/audio/primary-hal
+6a42341 effects: Link against latest android.media.audio.common.types
+
+   * lineage/mirror
+2330004 Updated lineage-minimal to 04-Jul-2026 22:01 UTC
+
+   * lineage/scripts
+acd1868 lineage-priv-template: Add com.android.npumanager
+
+   * packages/apps/Launcher3
+1421bd8 Launcher3: Remove dead space in bottom appdrawer search bar
+
+   * vendor/lineage
+14ffae7 crdroid: Drop memtag props
+
+====================
+     07-04-2026
+====================
+
+   * hardware/lineage/compat
+9e8811a compat: Provide our own libprotobuf 3.9.1 / 21.12 prebuilts
+
+   * hardware/qcom-caf/sm8450-6.6/display/hal
+618af11 Revert "vmmem: Make libvmmem_headers available"
+
+   * hardware/qcom-caf/sm8450/display
+9dfe541 Revert "vmmem: Make libvmmem_headers available"
+
+   * hardware/qcom-caf/sm8550/display
+d679d89 Revert "vmmem: Make libvmmem_headers available"
+
+   * hardware/qcom-caf/sm8650/display
+7f95c24 Revert "vmmem: Make libvmmem_headers available"
+
+   * lineage/website
+065a2e2 feed: Fix typo
+
+   * packages/apps/Twelve
+6a84b00 Twelve: Adjust track index card view colors
+
+   * vendor/qcom/opensource/libvmmem
+a4a0b08 libvmmem: Fix unused variable warning
+
+====================
+     07-03-2026
+====================
+
+   * packages/apps/crDroidSettings
+3a47bf6 Slow the nag to a crawl!!
+
+   * vendor/apn
+ed2b78e Merge branch 'LineageOS:main' into main
+
+   * vendor/crdroidOTA
+5cfd81a upload fogo.json
+
+====================
+     07-02-2026
+====================
+
+   * device/lineage/sepolicy
+eedd470 sepolicy: Address denial for setting vbmeta prop
+
+   * external/chromium-webview/prebuilt/arm
+3cc02a1 Update Chromium Webview arm to 150.0.7871.63
+
+   * external/chromium-webview/prebuilt/arm64
+aca8d63 Update Chromium Webview arm64 to 150.0.7871.63
+
+   * external/chromium-webview/prebuilt/x86
+02a0000 Update Chromium Webview x86 to 150.0.7871.63
+
+   * external/chromium-webview/prebuilt/x86_64
+cf378c5 Update Chromium Webview x86_64 to 150.0.7871.63
+
+   * frameworks/av
+2598b56 audiopolicy: Do not wipe device's known codec during bluetooth disconnection
+
+   * lineage/hudson
+18dee8c Regenerate device dependency mappings
+
+   * packages/apps/Settings
+57f8d35 colors: Introduce Reality display engine [2/2]
+
+====================
+     07-01-2026
+====================
+
+   * external/chromium-webview/patches
+970cdf1 Update Chromium Webview to 150.0.7871.63
+
+   * kernel/motorola/sm6375
+c229ae0da Merge remote-tracking branch 'sm8350/lineage-20' into lineage-23.2
+
+   * lineage/crowdin
+d392d80 config: Add hardware/ayn/packages/AynParts
+
+   * packages/apps/Glimpse
+0161fa9 Automatic translation import
+
+   * packages/resources/devicesettings
+bbb201a Automatic translation import
+
+   * vendor/crowdin
+e705fa7 Automatic translation import
+
+====================
+     06-30-2026
+====================
+
+   * packages/apps/Updater
+455b861 Updater: Adapt colors in lottie animations
+
+====================
+     06-29-2026
+====================
+
+   * frameworks/native
+da1214c fixup! libs: Add MTK GED-KPI support to fix MTK gpufreq
+
+   * hardware/interfaces
+6e2d52e Merge 'lineage-23.2' into 16.0
+
+   * packages/apps/GameSpace
+da6a892 New Crowdin updates (#152)
+
+   * packages/apps/LMOFreeform
+d489b56 New Crowdin updates (#31)
+
+   * packages/resources/apps
+1c33179 New Crowdin updates (#2)
+
+   * packages/services/OmniJaws
+11276aa OmniJaws: Move strings for translations
+
+====================
+     06-28-2026
+====================
+
+   * device/motorola/fogo
+22123ce Refine comments and fix default network mode
+
+   * device/motorola/sm6375-common
+7d45dac Change default network setting in vendor.prop
+
+   * packages/apps/Aperture
+b678a0f Aperture: Force dark navigation bar in CameraActivity
+
+   * tools/extract-utils
+88b42c6 extract_utils: update file on destination update
+
+====================
+     06-27-2026
+====================
+
+   * hardware/lineage/interfaces
+8258d8d power-libperfmgr: Fix sustained performance mode not turning off
+
