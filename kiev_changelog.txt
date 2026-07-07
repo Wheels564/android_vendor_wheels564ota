@@ -1,16 +1,139 @@
-Highlights & Device Specific Changes:
-Build type: Weekly
-Device: Motorola Moto G 5G
-Device maintainer: Wheels564
+====================
+     07-02-2026
+====================
 
-Highlights & Device Specific Changes:
-=====================================
-== 02 July , 2026 =====
+   * android
+c335b68 Revert "manifest: Track qcom sepolicy for sm8550, sm8650 and sm8750"
 
-- Updated to Android 16
-- Synced latest crdroid 12.11 changes
-- MicroG included
-- Kernel: Latest sm8250
-- Security Patch: June 2026
-- Known issues: None   
+   * device/lineage/sepolicy
+eedd470 sepolicy: Address denial for setting vbmeta prop
+
+   * device/motorola/kiev
+6ebb0fa Add maintainer information to vendor.prop
+
+   * device/motorola/sm7250-common
+58027c9 Add files via upload
+
+   * frameworks/av
+2598b56 audiopolicy: Do not wipe device's known codec during bluetooth disconnection
+
+   * frameworks/base
+f622767ae services: Add log dump for Reality Display engine
+
+   * lineage/hudson
+18dee8c Regenerate device dependency mappings
+
+   * lineage/wiki
+88fc2ee devices: Correct Dragonwing branding
+
+   * packages/apps/Launcher3
+8728197 Launcher3: Increase CPU clock speed when enabling early wakeup.
+
+   * packages/apps/Settings
+57f8d35 colors: Introduce Reality display engine [2/2]
+
+   * packages/apps/Twelve
+99c83d6 Twelve: Make Subsonic scrobble take list of "times"
+
+   * packages/apps/crDroidSettings
+3a47bf6 Slow the nag to a crawl!!
+
+   * vendor/apn
+ed2b78e Merge branch 'LineageOS:main' into main
+
+====================
+     07-01-2026
+====================
+
+   * kernel/motorola/sm8250
+3d1977c45 input: synaptics_tcm_mmi_v2: Port gesture pm wait logic from nova_0flash_mmi
+
+   * lineage/crowdin
+d392d80 config: Add hardware/ayn/packages/AynParts
+
+   * packages/apps/Glimpse
+0161fa9 Automatic translation import
+
+   * packages/resources/devicesettings
+bbb201a Automatic translation import
+
+   * vendor/crowdin
+e705fa7 Automatic translation import
+
+====================
+     06-30-2026
+====================
+
+   * lineage/scripts
+82a3130 dev: sepolicy: remove merging for source rules
+
+   * packages/apps/Updater
+455b861 Updater: Adapt colors in lottie animations
+
+   * system/core
+afc6ca1 libutils: Avoid UB in String8::toLower
+
+====================
+     06-29-2026
+====================
+
+   * frameworks/native
+da1214c fixup! libs: Add MTK GED-KPI support to fix MTK gpufreq
+
+   * lineage/mirror
+4d7473f Updated lineage-minimal to 29-Jun-2026 10:01 UTC
+
+   * packages/apps/GameSpace
+da6a892 New Crowdin updates (#152)
+
+   * packages/apps/LMOFreeform
+d489b56 New Crowdin updates (#31)
+
+   * packages/resources/apps
+1c33179 New Crowdin updates (#2)
+
+====================
+     06-28-2026
+====================
+
+   * hardware/interfaces
+6e2d52e Merge 'lineage-23.2' into 16.0
+
+   * packages/apps/Aperture
+b678a0f Aperture: Force dark navigation bar in CameraActivity
+
+   * packages/services/OmniJaws
+11276aa OmniJaws: Move strings for translations
+
+   * tools/extract-utils
+88b42c6 extract_utils: update file on destination update
+
+   * vendor/lineage
+5041304 crdroid: Drop memtag props
+
+====================
+     06-27-2026
+====================
+
+   * hardware/lineage/interfaces
+8258d8d power-libperfmgr: Fix sustained performance mode not turning off
+
+====================
+     06-26-2026
+====================
+
+====================
+     06-25-2026
+====================
+
+====================
+     06-24-2026
+====================
+
+====================
+     06-23-2026
+====================
+
+   * hardware/motorola
+0cf21fe Merge branch 'LineageOS:lineage-23.2' into lineage-23.2
 
