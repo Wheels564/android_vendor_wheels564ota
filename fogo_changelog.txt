@@ -1,184 +1,222 @@
 ====================
-     07-06-2026
+     07-17-2026
 ====================
 
-   * bionic
-adc85bf bionic: drop long property-name warning spam
+   * device/motorola/sm6375-common
+ddd9b44 revert to Lineage defaults
 
-   * build/soong
-0cabbb4 soong: Increase ThinLTO cache to 15GB
-
-   * frameworks/base
-309246027 CarrierConfigManager: Gracefully handle missing CarrierConfigLoader
+   * lineage/hudson
+9ff722a Regenerate device dependency mappings
 
    * lineage/wiki
-e4658db wiki: Update avatrn and bronco firmware requirements
-
-   * system/core
-6a7ff2c init: Fixing abnormal state
+fff45b2 devices: nicepool: Fix instructions
 
 ====================
-     07-05-2026
+     07-16-2026
+====================
+
+   * lineage/mirror
+e59e9b8 Updated to 16-Jul-2026 10:01 UTC
+
+====================
+     07-15-2026
+====================
+
+   * frameworks/base
+77451ab87 Animate play/pause button when clicked
+
+   * hardware/motorola
+fa16e73 Merge branch 'LineageOS:lineage-23.2' into lineage-23.2
+
+   * packages/apps/Aperture
+4256784 Automatic translation import
+
+   * packages/apps/DeskClock
+86b8c63 Automatic translation import
+
+   * packages/apps/FMRadio
+78dfedb Automatic translation import
+
+   * packages/apps/Glimpse
+29694da Automatic translation import
+
+   * packages/apps/Jelly
+6517f6a Automatic translation import
+
+   * packages/apps/Twelve
+2443487 Automatic translation import
+
+   * packages/apps/crDroidSettings
+bdd20c5 Merge branch 'crdroidandroid:16.0' into 16.0
+
+   * packages/resources/devicesettings
+0c8e54f Automatic translation import
+
+   * vendor/crowdin
+542010c Automatic translation import
+
+   * vendor/qcom/opensource/commonsys/fm
+87b347b Automatic translation import
+
+====================
+     07-14-2026
+====================
+
+   * packages/apps/GameSpace
+f27d428 New Crowdin updates (#154)
+
+   * packages/apps/LMOFreeform
+53000e4 New Crowdin updates (#32)
+
+   * packages/resources/apps
+58339c7 New Crowdin updates (#3)
+
+====================
+     07-13-2026
+====================
+
+   * art
+663e2bf art: Optimize IsPathologicalCase with unlikely hints
+
+   * bionic
+b5f8e4d libm: optimize roundf with bit-based fast path
+
+   * device/qcom/sepolicy_vndr/legacy-um
+a61270bcd vendor: lahaina: Label hwmon node from motorola/sm7325
+
+   * hardware/lineage/interfaces
+19b455c light: Add support for microphone & camera privacy LEDs
+
+====================
+     07-12-2026
+====================
+
+   * device/qcom/sepolicy_vndr/sm8550
+db3029437 Merge tag 'LA.VENDOR.13.2.0.r1-27500-KAILUA.QSSI16.0' of https://git.codelinaro.org/clo/la/device/qcom/sepolicy_vndr into HEAD
+
+   * packages/apps/Updater
+923ba75 Updater: Adapt colors in lottie animations
+
+   * vendor/lineage
+66bb913 crdroid: Add security date in OTA json
+
+====================
+     07-11-2026
 ====================
 
    * android
-a7e64d6 Merge 'lineage-23.2' into 16.0
+aac17d7 manifest: Untrack sm8350 display hal
 
-   * hardware/qcom-caf/sm8450-6.6/audio/primary-hal
-6a42341 effects: Link against latest android.media.audio.common.types
+   * device/qcom/sepolicy
+d903f8e Merge tag 'LA.QSSI.16.0.r1-14000-qssi.0' into staging/lineage-23.2_merge-LA.QSSI.16.0.r1-14000-qssi.0
 
-   * lineage/mirror
-2330004 Updated lineage-minimal to 04-Jul-2026 22:01 UTC
+   * device/qcom/sepolicy_vndr/sm8650
+69cbb9a12 Merge tag 'LA.VENDOR.14.3.0.r1-23100-lanai.QSSI16.0' into staging/lineage-23.2_merge-LA.VENDOR.14.3.0.r1-23100-lanai.QSSI16.0
+574037f40 qva: Remove duplicate attributes
+a0bb754a0 Revert "sepolicy: Add new Sepolicy context for AVC denial for volcano"
+7847bbf4d Revert "sepolicy: Add new Sepolicy context for AVC denial for volcano"
+7ed9a6287 Merge tag 'LA.VENDOR.14.3.0.r1-22900-lanai.QSSI16.0' of https://git.codelinaro.org/clo/la/device/qcom/sepolicy_vndr into HEAD
+
+   * device/qcom/sepolicy_vndr/sm8750
+b5c02660d Merge tag 'LA.VENDOR.15.4.0.r1-21400-pakala.QSSI16.0' into staging/lineage-23.2_merge-LA.VENDOR.15.4.0.r1-21400-pakala.QSSI16.0
+75073394f Merge tag 'LA.VENDOR.15.4.0.r1-21200-pakala.QSSI16.0' of https://git.codelinaro.org/clo/la/device/qcom/sepolicy_vndr into HEAD
+
+   * hardware/qcom-caf/sm8350/audio
+9596e4b Merge tag 'LA.UM.9.14.r1-26700-LAHAINA.QSSI16.0' into staging/lineage-23.2_merge-LA.UM.9.14.r1-26700-LAHAINA.QSSI16.0
+
+   * hardware/qcom-caf/sm8450-6.6/dataipa
+3296f05 Merge tag 'LA.VENDOR.15.4.1.r1-10900-WAIPIO.QSSI16.0' into staging/lineage-23.2_merge-LA.VENDOR.15.4.1.r1-10900-WAIPIO.QSSI16.0
+
+   * hardware/qcom-caf/sm8450/audio/agm
+35c3491 Merge tag 'LA.VENDOR.1.0.r1-29900-WAIPIO.QSSI16.0' into staging/lineage-23.2_merge-LA.VENDOR.1.0.r1-29900-WAIPIO.QSSI16.0
+
+   * hardware/qcom-caf/sm8450/audio/pal
+a8c1206 Merge tag 'LA.VENDOR.1.0.r1-29900-WAIPIO.QSSI16.0' into staging/lineage-23.2_merge-LA.VENDOR.1.0.r1-29900-WAIPIO.QSSI16.0
+
+   * hardware/qcom-caf/sm8450/audio/primary-hal
+1e1e5aa Merge tag 'LA.VENDOR.1.0.r1-29900-WAIPIO.QSSI16.0' into staging/lineage-23.2_merge-LA.VENDOR.1.0.r1-29900-WAIPIO.QSSI16.0
+
+   * hardware/qcom-caf/sm8450/data-ipa-cfg-mgr
+a17b3e2 Merge tag 'LA.VENDOR.1.0.r1-29900-WAIPIO.QSSI16.0' into staging/lineage-23.2_merge-LA.VENDOR.1.0.r1-29900-WAIPIO.QSSI16.0
+
+   * hardware/qcom-caf/sm8550/audio/primary-hal
+aa14955 Merge tag 'AUDIO.LA.8.0.r1-13000-KAILUA.0' into staging/lineage-23.2_merge-AUDIO.LA.8.0.r1-13000-KAILUA.0
+
+   * hardware/qcom-caf/sm8550/data-ipa-cfg-mgr
+a37a455 Merge tag 'LA.VENDOR.13.2.0.r1-27800-KAILUA.QSSI16.0' into staging/lineage-23.2_merge-LA.VENDOR.13.2.0.r1-27800-KAILUA.QSSI16.0
+
+   * hardware/qcom-caf/sm8550/dataipa
+a964339 Merge tag 'LA.VENDOR.13.2.0.r1-27800-KAILUA.QSSI16.0' into staging/lineage-23.2_merge-LA.VENDOR.13.2.0.r1-27800-KAILUA.QSSI16.0
+
+   * hardware/qcom-caf/sm8650/audio/pal
+8c4463e Merge tag 'AUDIO.LA.9.0.r1-08900-lanai.0' into staging/lineage-23.2_merge-AUDIO.LA.9.0.r1-08900-lanai.0
+
+   * hardware/qcom-caf/sm8650/audio/primary-hal
+2aa541f Merge tag 'AUDIO.LA.9.0.r1-08900-lanai.0' into staging/lineage-23.2_merge-AUDIO.LA.9.0.r1-08900-lanai.0
+
+   * hardware/qcom-caf/sm8650/data-ipa-cfg-mgr
+0b5c342 Merge tag 'LA.VENDOR.14.3.0.r1-23100-lanai.QSSI16.0' into staging/lineage-23.2_merge-LA.VENDOR.14.3.0.r1-23100-lanai.QSSI16.0
+
+   * hardware/qcom-caf/sm8650/dataipa
+1311e1c Merge tag 'LA.VENDOR.14.3.0.r1-23100-lanai.QSSI16.0' into staging/lineage-23.2_merge-LA.VENDOR.14.3.0.r1-23100-lanai.QSSI16.0
+
+   * hardware/qcom-caf/sm8750/audio/agm
+853c0f6 Merge tag 'AUDIO_HANDSET.LA.10.0.r1-08100-pakala.0' into staging/lineage-23.2_merge-AUDIO_HANDSET.LA.10.0.r1-08100-pakala.0
+
+   * hardware/qcom-caf/sm8750/audio/pal
+39f7ccc Merge tag 'AUDIO_HANDSET.LA.10.0.r1-08100-pakala.0' into staging/lineage-23.2_merge-AUDIO_HANDSET.LA.10.0.r1-08100-pakala.0
+
+   * hardware/qcom-caf/sm8750/data-ipa-cfg-mgr
+5c75409 Merge tag 'LA.VENDOR.15.4.0.r1-21400-pakala.QSSI16.0' into staging/lineage-23.2_merge-LA.VENDOR.15.4.0.r1-21400-pakala.QSSI16.0
+
+   * hardware/qcom-caf/sm8750/dataipa
+c620683 Merge tag 'LA.VENDOR.15.4.0.r1-21400-pakala.QSSI16.0' into staging/lineage-23.2_merge-LA.VENDOR.15.4.0.r1-21400-pakala.QSSI16.0
+
+   * hardware/qcom-caf/thermal
+05ea2d4 Merge tag 'LA.VENDOR.15.4.0.r1-21400-pakala.QSSI16.0' into staging/lineage-23.2_merge-LA.VENDOR.15.4.0.r1-21400-pakala.QSSI16.0
+
+   * hardware/qcom-caf/thermal-legacy-um
+ed71072 Merge tag 'LA.VENDOR.14.3.0.r1-23100-lanai.QSSI16.0' into staging/lineage-23.2_merge-LA.VENDOR.14.3.0.r1-23100-lanai.QSSI16.0
+
+   * vendor/qcom/opensource/audio-hal/st-hal
+943789d Merge tag 'LA.UM.9.14.r1-26700-LAHAINA.QSSI16.0' into staging/lineage-23.2_merge-LA.UM.9.14.r1-26700-LAHAINA.QSSI16.0
+
+   * vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um
+897e656 Merge tag 'LA.UM.9.14.r1-26700-LAHAINA.QSSI16.0' into staging/lineage-23.2_merge-LA.UM.9.14.r1-26700-LAHAINA.QSSI16.0
+
+   * vendor/qcom/opensource/interfaces
+eb976d9 Merge tag 'LA.QSSI.16.0.r1-14000-qssi.0' into staging/lineage-23.2_merge-LA.QSSI.16.0.r1-14000-qssi.0
+
+   * vendor/qcom/opensource/usb
+9b4843b Merge tag 'LA.VENDOR.15.4.0.r1-21200-pakala.QSSI16.0' of https://git.codelinaro.org/clo/la/platform/vendor/qcom-opensource/usb into HEAD
+
+====================
+     07-10-2026
+====================
 
    * lineage/scripts
-acd1868 lineage-priv-template: Add com.android.npumanager
-
-   * packages/apps/Launcher3
-1421bd8 Launcher3: Remove dead space in bottom appdrawer search bar
-
-   * vendor/lineage
-14ffae7 crdroid: Drop memtag props
+594cd33 pixel: Also update system build fingerprint
 
 ====================
-     07-04-2026
+     07-09-2026
 ====================
-
-   * hardware/lineage/compat
-9e8811a compat: Provide our own libprotobuf 3.9.1 / 21.12 prebuilts
-
-   * hardware/qcom-caf/sm8450-6.6/display/hal
-618af11 Revert "vmmem: Make libvmmem_headers available"
 
    * hardware/qcom-caf/sm8450/display
-9dfe541 Revert "vmmem: Make libvmmem_headers available"
-
-   * hardware/qcom-caf/sm8550/display
-d679d89 Revert "vmmem: Make libvmmem_headers available"
+b8d7737f5 Merge tag 'DISPLAY.LA.2.0.r1-13200-WAIPIO.0' of https://git.codelinaro.org/clo/la/platform/hardware/qcom/display into lineage-23.2-caf-sm8450
 
    * hardware/qcom-caf/sm8650/display
-7f95c24 Revert "vmmem: Make libvmmem_headers available"
+1380ecb8b Merge tag 'DISPLAY.LA.4.0.r2-09500-lanai.0' of https://git.codelinaro.org/clo/la/platform/hardware/qcom/display into lineage-23.2-caf-sm8650
 
    * lineage/website
-065a2e2 feed: Fix typo
+cae5e9e www: Add amlogic burn mode to web flash-tools mention
 
-   * packages/apps/Twelve
-6a84b00 Twelve: Adjust track index card view colors
+   * packages/modules/Permission
+b8fd980 Merge 'lineage-23.2' into 16.0
 
-   * vendor/qcom/opensource/libvmmem
-a4a0b08 libvmmem: Fix unused variable warning
-
-====================
-     07-03-2026
-====================
-
-   * packages/apps/crDroidSettings
-3a47bf6 Slow the nag to a crawl!!
-
-   * vendor/apn
-ed2b78e Merge branch 'LineageOS:main' into main
-
-   * vendor/crdroidOTA
-5cfd81a upload fogo.json
+   * packages/services/Telecomm
+71ec95f prefer bluetooth route for ringing
 
 ====================
-     07-02-2026
+     07-08-2026
 ====================
-
-   * device/lineage/sepolicy
-eedd470 sepolicy: Address denial for setting vbmeta prop
-
-   * external/chromium-webview/prebuilt/arm
-3cc02a1 Update Chromium Webview arm to 150.0.7871.63
-
-   * external/chromium-webview/prebuilt/arm64
-aca8d63 Update Chromium Webview arm64 to 150.0.7871.63
-
-   * external/chromium-webview/prebuilt/x86
-02a0000 Update Chromium Webview x86 to 150.0.7871.63
-
-   * external/chromium-webview/prebuilt/x86_64
-cf378c5 Update Chromium Webview x86_64 to 150.0.7871.63
-
-   * frameworks/av
-2598b56 audiopolicy: Do not wipe device's known codec during bluetooth disconnection
-
-   * lineage/hudson
-18dee8c Regenerate device dependency mappings
-
-   * packages/apps/Settings
-57f8d35 colors: Introduce Reality display engine [2/2]
-
-====================
-     07-01-2026
-====================
-
-   * external/chromium-webview/patches
-970cdf1 Update Chromium Webview to 150.0.7871.63
-
-   * kernel/motorola/sm6375
-c229ae0da Merge remote-tracking branch 'sm8350/lineage-20' into lineage-23.2
-
-   * lineage/crowdin
-d392d80 config: Add hardware/ayn/packages/AynParts
-
-   * packages/apps/Glimpse
-0161fa9 Automatic translation import
-
-   * packages/resources/devicesettings
-bbb201a Automatic translation import
-
-   * vendor/crowdin
-e705fa7 Automatic translation import
-
-====================
-     06-30-2026
-====================
-
-   * packages/apps/Updater
-455b861 Updater: Adapt colors in lottie animations
-
-====================
-     06-29-2026
-====================
-
-   * frameworks/native
-da1214c fixup! libs: Add MTK GED-KPI support to fix MTK gpufreq
-
-   * hardware/interfaces
-6e2d52e Merge 'lineage-23.2' into 16.0
-
-   * packages/apps/GameSpace
-da6a892 New Crowdin updates (#152)
-
-   * packages/apps/LMOFreeform
-d489b56 New Crowdin updates (#31)
-
-   * packages/resources/apps
-1c33179 New Crowdin updates (#2)
-
-   * packages/services/OmniJaws
-11276aa OmniJaws: Move strings for translations
-
-====================
-     06-28-2026
-====================
-
-   * device/motorola/fogo
-22123ce Refine comments and fix default network mode
-
-   * device/motorola/sm6375-common
-7d45dac Change default network setting in vendor.prop
-
-   * packages/apps/Aperture
-b678a0f Aperture: Force dark navigation bar in CameraActivity
-
-   * tools/extract-utils
-88b42c6 extract_utils: update file on destination update
-
-====================
-     06-27-2026
-====================
-
-   * hardware/lineage/interfaces
-8258d8d power-libperfmgr: Fix sustained performance mode not turning off
 

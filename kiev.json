@@ -1,23 +1,30 @@
 {
-  "response": [
-    {
-      "maintainer": "Wheels564",
-      "oem": "Motorola",
-      "device": "Moto G 5G",
-      "filename": "crDroidAndroid-16.0-20260702-kiev-v12.11.zip",
-      "download": "https://sourceforge.net/projects/crdroid/files/kiev/16.0/crDroidAndroid-16.0-20260702-kiev-v12.11.zip/download",
-      "timestamp": 1783013277,
-      "md5": "c3f756a3783228c646cb241503f4cdb6",
-      "sha256": "41bc162bf5277e528ed73fd5e69527d154daa123aa143e67d94b6bdf8af773a2",
-      "size": 1462019598,
-      "version": "12.11",
-      "buildtype": "Monthly",
-      "forum": "https://forum.xda-developers.com/",
-      "gapps": "https://github.com/lineageos4microg/",   
-      "firmware": "",
-      "dt": "https://github.com/Wheels564/android_device_motorola_kiev",
-      "common-dt": "https://github.com/Wheels564/android_device_motorola_sm7250-common",
-      "kernel": "https://github.com/lineageos/android_kernel_motorola_sm8250"
-    }
-  ]
-}   
+    "response": [
+        {
+            "maintainer": "Wheels564",
+            "oem": "Motorola",
+            "device": "Moto G 5G",
+            "filename": "crDroidAndroid-16.0-20260717-kiev-v12.11.zip",
+            "download": "https://sourceforge.net/projects/crdroid/files/kiev/12.x/crDroidAndroid-16.0-20260717-kiev-v12.11.zip/download",
+            "timestamp": 1784313350,
+            "md5": "8844c9a89aef2fd775774e3b5d75f053",
+            "sha256": "067ee1914f0aee7b97ba7eb3a5d292a36f570efad80ae7045073a162fd04fd67",
+            "size": 1463416639,
+            "version": "12.11",
+            "os_patch_level": "2026-07-01",
+            "os_sdk_level": 36,
+            "buildtype": "Monthly",
+            "forum": "https://forum.xda-developers.com/",
+            "gapps": "https://github.com/lineageos4microg/",
+            "firmware": "",
+            "modem": "",
+            "bootloader": "",
+            "recovery": "",
+            "paypal": "",
+            "telegram": "",
+            "dt": "https://github.com/Wheels564/android_device_motorola_kiev",
+            "common-dt": "https://github.com/Wheels564/android_device_motorola_sm7250-common",
+            "kernel": "https://github.com/lineageos/android_kernel_motorola_sm8250"
+        }
+    ]
+}
