@@ -1,169 +1,256 @@
 ====================
-     09-12-2026
-====================
-
-   * lineage/charter
-8d37f70 Don't advertise used llm models
-
-   * lineage/hudson
-99bdc8e Regenerate device dependency mappings
-
-   * lineage/mirror
-51340b8 Updated to 12-Sep-2026 00:02 UTC
-
-   * packages/apps/DeskClock
-2a6b22e DeskClock: Change stopwatch "start" label to resume
-
-====================
-     09-11-2026
+     10-11-2026
 ====================
 
    * android
-ff9f424 Merge 'lineage-23.2' of https://github.com/LineageOS/android into 16.0
+c805936 manifest: Track Glimpse and SettingsIntelligence
 
-   * art
-417543a Make the runtime-generated app image read-only
+   * bionic
+cc24b32 custom_rom_hide: Hide ROM-named RRO overlays from apps
 
-   * device/lineage/atv
-32c4089 atv: Move log properties to system_ext
-
-   * frameworks/av
-9cb8010 Merge 'lineage-23.2' into 16.0
+   * build/make
+c76e3bc build: overriding lineage namespace
 
    * frameworks/base
-c0371ef89 crdroid: Apply DeviceConfig defaults before consumers start
+0b2b84731 BatteryService: Cache OEM fast charger config strings
 
    * frameworks/opt/telephony
-7b9d209 Merge 'lineage-23.2' into 16.0
+57856ee telephony: Handle scan rejection and fall back to visible cell infos
 
-   * hardware/interfaces
-71d60a4 Merge 'lineage-23.2' into 16.0
+   * hardware/google/pixel-sepolicy
+534a9a0 sepolicy: Update ignored policy for CP3A
+
+   * hardware/lineage/compat
+07768b8 compat: Provide libui-v32
+
+   * hardware/motorola
+db3ce26 Merge branch 'LineageOS:lineage-24.0' into lineage-24.0
+
+   * lineage/scripts
+c00c7f2 pixel: Update ignored overlays for CP3A
+
+   * packages/apps/Dialer
+107b649 Dialer: Fix crash when theme color resolves to white
+
+   * packages/apps/Glimpse
+454f3b9 Glimpse: Fix opening media from file managers
+
+   * packages/apps/LMOFreeform
+dcfd5e6 New Crowdin updates (#36)
 
    * packages/apps/Launcher3
-9192e32 Merge pull request #557 from pbzin/fix-drawer-and-hotseat-surfaces
+5f025f8 New Crowdin updates (#559)
 
    * packages/apps/Settings
-7e49100 Merge 'lineage-23.2' into 16.0
+0444f76 Settings: Forcefully enable Hotspot Speed setting
+
+   * packages/apps/SetupWizard
+516f30b SetupWizard: Update welcome animation logo
+
+   * packages/apps/crDroidSettings
+3f0e7d0 Merge branch 'crdroidandroid:17.0' into 17.0
 
    * packages/modules/Bluetooth
-9e43878 Merge 'lineage-23.2' into 16.0
+c9a6741 Revert "A2dpSink: remove dead code around getAudioConfig"
 
-   * packages/modules/Wifi
-bb72fac Merge 'lineage-23.2' into 16.0
+   * packages/resources/apps
+91d835b New translations (#11)
 
-   * packages/services/Telecomm
-6f03c59 Merge 'lineage-23.2' into 16.0
+   * packages/services/QuickLook
+935d08e WeatherProvider: Update import path for OmniJawsClient
 
-   * packages/services/Telephony
-db75301 Merge 'lineage-23.2' into 16.0
-
-   * system/core
-b71db41 Merge 'lineage-23.2' into 16.0
-
-   * vendor/lineage
-5bb04a8 crdroid: Bump to version 12.12
+   * system/vold
+598b1db vold: Fallback to direct restorecon if property set fails
 
 ====================
-     09-10-2026
+     10-10-2026
 ====================
 
    * external/chromium-webview/prebuilt/arm
-9f672a0 Update Chromium Webview arm to 153.0.8010.36
+170e899 Update Chromium Webview arm to 155.0.8059.39
 
    * external/chromium-webview/prebuilt/arm64
-11fd8af Update Chromium Webview arm64 to 153.0.8010.36
+604ad4c Update Chromium Webview arm64 to 155.0.8059.39
 
    * external/chromium-webview/prebuilt/x86
-69d94d6 Update Chromium Webview x86 to 153.0.8010.36
+2ca10d7 Update Chromium Webview x86 to 155.0.8059.39
 
    * external/chromium-webview/prebuilt/x86_64
-d676fed Update Chromium Webview x86_64 to 153.0.8010.36
-
-   * lineage/wiki
-001170a wiki: pages: libvirt-qemu: Add workarounds for the known issues
-
-====================
-     09-09-2026
-====================
-
-   * external/chromium-webview/patches
-b29edae Update Chromium Webview to 153.0.8010.36
-
-   * kernel/motorola/sm6375
-c8bc4b74d Merge remote-tracking branch 'sm8350/lineage-20' into lineage-23.2
-
-   * lineage/scripts
-d0edcae build-webview: Update default webview to 153.0.8010.36
-
-====================
-     09-08-2026
-====================
-
-====================
-     09-07-2026
-====================
-
-   * packages/apps/Twelve
-dc1f0ec Twelve: Remove unwanted margin/padding in playlist
-
-====================
-     09-06-2026
-====================
-
-====================
-     09-05-2026
-====================
-
-   * hardware/motorola
-823a533 Merge branch 'LineageOS:lineage-23.2' into lineage-23.2
-
-====================
-     09-04-2026
-====================
-
-   * bionic
-c84556c Merge 'lineage-23.2' into 16.0
-
-   * build/make
-833ab77 Merge 'lineage-23.2' into 16.0
-
-   * device/lineage/sepolicy
-58db9e6 Merge 'lineage-23.2' into 16.0
-
-   * device/qcom/sepolicy_vndr/legacy-um
-0dbc76e4b sepolicy_vndr: kona: Label qcom,pm8150l@5:qcom,leds@d300
-
-   * kernel/configs
-3431cff Merge 'lineage-23.2' into 16.0
-
-   * lineage-sdk
-4567188 sdk: SelfRemovingPreference: set visibility at early stage
-
-   * packages/apps/Dialer
-c7711d8 Merge 'lineage-23.2' into 16.0
-
-   * packages/apps/DocumentsUI
-76708c7 Merge 'lineage-23.2' into 16.0
-
-   * packages/apps/LineageParts
-14a23bf DisplayRotation: fix lockscreen rotation hidden on portrait
+de57895 Update Chromium Webview x86_64 to 155.0.8059.39
 
    * packages/apps/Messaging
-a82f4ab Merge 'lineage-23.2' into 16.0
+94e96d5 Merge 'lineage-24.0' into 17.0
 
-   * packages/apps/SetupWizard
-4df8473 SetupWizard: Handle navbar and hw keys
-
-   * packages/apps/ThemePicker
-8206f1a Merge 'lineage-23.2' into 16.0
-
-   * packages/apps/Updater
-9a07d99 Updater: Adapt colors in lottie animations
-
-   * packages/inputmethods/LatinIME
-b591740 LatinIME: Update Russian translations
+   * vendor/addons
+f543ecbe addons: Update various sysconfig from komodo cp3a
 
 ====================
-     09-03-2026
+     10-09-2026
 ====================
+
+   * vendor/lineage
+59a8e66 vendor: changelog.sh: Fix changelog generation
+
+====================
+     10-08-2026
+====================
+
+   * device/qcom/sepolicy_vndr/sm8750
+78d2d36 sepolicy_vndr: Add required policy for waipio on 6.6
+
+   * hardware/qcom-caf/sm8450-6.6/audio/primary-hal
+c9d01fc effects: Support effect destroy at any state
+
+   * packages/apps/SettingsIntelligence
+b6c48af SettingsIntelligence: Don't crash indexing on inaccessible providers
+
+   * vendor/apn
+35d822d apn: Remove YT and separate Palestinian APNs from IL
+
+====================
+     10-07-2026
+====================
+
+   * device/lineage/sepolicy
+0f74a5b sepolicy: Address denial for setting vbmeta prop
+
+   * external/chromium-webview/patches
+3847f83 Update Chromium Webview to 155.0.8059.39
+
+   * frameworks/av
+d457396 stagefright: Hide emitting non-AOSP symbol
+
+   * hardware/qcom-caf/common
+5e84e6f qcom: Add support for TARGET_NO_CAMERA_CUSTOM_FORMAT
+
+   * packages/apps/Aperture
+36b3be3 Automatic translation import
+
+   * packages/apps/AudioFX
+193fdf7 Automatic translation import
+
+   * packages/apps/Canvas
+115bed9 Automatic translation import
+
+   * packages/apps/Car/Settings
+fdb1419 Automatic translation import
+
+   * packages/apps/Catapult
+e357e75 Automatic translation import
+
+   * packages/apps/DeskClock
+5e49fdf Automatic translation import
+
+   * packages/apps/ExactCalculator
+108f08b ExactCalculator: Remove stale translation files
+
+   * packages/apps/Jelly
+8ba5afd Automatic translation import
+
+   * packages/apps/Recorder
+624957c Automatic translation import
+
+   * packages/apps/TvSettings
+f9a35ea Automatic translation import
+
+   * packages/apps/Twelve
+de4ff1b Automatic translation import
+
+   * packages/providers/DownloadProvider
+bde34d8 Automatic translation import
+
+   * packages/resources/devicesettings
+661fc40 Automatic translation import
+
+   * packages/services/Mms
+1a630ef Automatic translation import
+
+   * packages/services/OmniJaws
+c304570 Merge pull request #8 from 306bobby-android/17.0
+
+   * system/core
+2a87902 Revert "libprocessgroup: CgroupSetup should fail if a required controller fails to mount"
+
+   * system/sepolicy
+7b39d96 sepolicy: allow permissive backuptool on precompiled_sepolicy_without_vendor
+
+   * vendor/crowdin
+0b9e197 Automatic translation import
+
+   * vendor/qcom/opensource/commonsys/fm
+46bd9dc Automatic translation import
+
+   * vendor/qcom/opensource/usb
+0d32cd0 etc: Use maxburst instead of Mult for UVC streaming endpoint
+
+====================
+     10-06-2026
+====================
+
+   * bootable/recovery
+3f5bbfc recovery: Do not format /cache and /metadata with data_fstype
+
+   * development
+27a3ac3 Avoid OOM in ApiDemos PduParser by using stream skip
+
+   * device/qcom/sepolicy_vndr/legacy-um
+33df3b6 sepolicy_vndr: Globally allow using logdump partition as metadata
+
+   * device/qcom/sepolicy_vndr/sm8450
+a6bcda4 fixup! taro: Label additional read_ahead_kb node
+
+   * device/qcom/sepolicy_vndr/sm8550
+3246964 sepolicy: Add Power HAL as client of Display HAL
+
+   * device/qcom/sepolicy_vndr/sm8650
+3d37d21 sepolicy: Add Power HAL as client of Display HAL
+
+   * hardware/lineage/generic-ims
+e9c3590 ims: Sort soong namespace declaration
+
+   * hardware/qcom-caf/sm8250/display
+bf8aef1 gralloc: Protect new buffer allocation support for legacy camera
+
+====================
+     10-05-2026
+====================
+
+====================
+     10-04-2026
+====================
+
+   * hardware/nxp/nfc
+66ef2f3 Revert "Fix Use-After-Free in NXP NFC HAL timer teardown"
+
+   * hardware/qcom-caf/sm8450/audio/pal
+e60d689 Revert "ipc: Handle DSP metadata for non-tunnel streams"
+
+   * packages/apps/AppLocker
+065f2f5 strings: Added Russian translation
+
+   * packages/apps/Sandbox
+149b72c sandbox: Update repository link
+
+====================
+     10-03-2026
+====================
+
+   * frameworks/native
+1210cd4 Revert "fix statsd disabled spam"
+
+   * packages/apps/GameSpace
+3e325db New Crowdin updates (#159)
+
+====================
+     10-02-2026
+====================
+
+   * device/motorola/fogo
+cfd497f Merge branch 'LineageOS:lineage-24.0' into lineage-24.0
+
+   * device/motorola/sm6375-common
+7b3402e Merge branch 'LineageOS:lineage-24.0' into lineage-24.0
+
+   * frameworks/libs/systemui
+65eb5d7 iconloaderlib: Invalidate icon cache between OS releases
 
