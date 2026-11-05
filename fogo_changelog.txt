@@ -21,7 +21,7 @@ cef2be6 Merge branch 'LineageOS:lineage-24.0' into lineage-24.0
 bfd9660 CCodecBufferChannel: avoid API_SAME_INPUT_BUFFER for thumbnail sessions
 
    * frameworks/base
-21a2fd02b New Crowdin updates (#1366)
+8efa756b7 core: pif: Fix inconsistent first-API-level props
 
    * frameworks/native
 5104356 Add MTK GED KPI support to fix broken Mediatek gpufreq
@@ -54,7 +54,7 @@ a10a565 Revert "health: expose updateChargerPresence for BatteryMonitor"
 051af97 OmniStyle: Migrate strings for updated translations
 
    * packages/apps/Settings
-8ec0ca0 Settings: Add battery saver dark theme toggle to dark theme screen
+1d940c8 Update OTA JSON URL for firmware version
 
    * packages/apps/SetupWizard
 8395fd5 SUW: Switch to static logo
@@ -93,21 +93,15 @@ d6a6656 resources: Add strings for OmniStyle
      11-04-2026
 ====================
 
-   * bionic
-dd42d69 custom_rom_hide: Preserve canonical proc paths for substituted files
-
    * hardware/broadcom/wlan
 64ffcd8 wlan: Import firmware
-
-   * packages/apps/Launcher3
-017bd82 fixup! Launcher3: Treat built-in secondary displays like the primary display
 
 ====================
      11-03-2026
 ====================
 
-   * build/soong
-cf0680a always use UTC as the time zone for build dates
+   * bionic
+dd42d69 custom_rom_hide: Preserve canonical proc paths for substituted files
 
    * device/qcom/sepolicy_vndr/sm8750
 19dd1d9 sepolicy: add sun wakeup genfscon rules
@@ -118,6 +112,9 @@ cf0680a always use UTC as the time zone for build dates
    * packages/apps/Contacts
 c03937e Truncate existing vcf file when exporting contacts
 
+   * packages/apps/Launcher3
+017bd82 fixup! Launcher3: Treat built-in secondary displays like the primary display
+
    * packages/providers/TelephonyProvider
 2920c39 Add checkSelection validation to updateInternal and deleteInternal
 
@@ -127,6 +124,9 @@ abcc9f7 gsid: Reject reserved names and validate slot name in openInstall
 ====================
      11-02-2026
 ====================
+
+   * build/soong
+cf0680a always use UTC as the time zone for build dates
 
    * hardware/qcom-caf/thermal
 e2ff2bb thermal-hal: Drop the boot-time restart
