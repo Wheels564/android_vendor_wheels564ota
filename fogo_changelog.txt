@@ -1,256 +1,220 @@
 ====================
-     10-11-2026
+     11-05-2026
 ====================
 
    * android
-c805936 manifest: Track Glimpse and SettingsIntelligence
-
-   * bionic
-cc24b32 custom_rom_hide: Hide ROM-named RRO overlays from apps
-
-   * build/make
-c76e3bc build: overriding lineage namespace
-
-   * frameworks/base
-0b2b84731 BatteryService: Cache OEM fast charger config strings
-
-   * frameworks/opt/telephony
-57856ee telephony: Handle scan rejection and fall back to visible cell infos
-
-   * hardware/google/pixel-sepolicy
-534a9a0 sepolicy: Update ignored policy for CP3A
-
-   * hardware/lineage/compat
-07768b8 compat: Provide libui-v32
-
-   * hardware/motorola
-db3ce26 Merge branch 'LineageOS:lineage-24.0' into lineage-24.0
-
-   * lineage/scripts
-c00c7f2 pixel: Update ignored overlays for CP3A
-
-   * packages/apps/Dialer
-107b649 Dialer: Fix crash when theme color resolves to white
-
-   * packages/apps/Glimpse
-454f3b9 Glimpse: Fix opening media from file managers
-
-   * packages/apps/LMOFreeform
-dcfd5e6 New Crowdin updates (#36)
-
-   * packages/apps/Launcher3
-5f025f8 New Crowdin updates (#559)
-
-   * packages/apps/Settings
-0444f76 Settings: Forcefully enable Hotspot Speed setting
-
-   * packages/apps/SetupWizard
-516f30b SetupWizard: Update welcome animation logo
-
-   * packages/apps/crDroidSettings
-3f0e7d0 Merge branch 'crdroidandroid:17.0' into 17.0
-
-   * packages/modules/Bluetooth
-c9a6741 Revert "A2dpSink: remove dead code around getAudioConfig"
-
-   * packages/resources/apps
-91d835b New translations (#11)
-
-   * packages/services/QuickLook
-935d08e WeatherProvider: Update import path for OmniJawsClient
-
-   * system/vold
-598b1db vold: Fallback to direct restorecon if property set fails
-
-====================
-     10-10-2026
-====================
-
-   * external/chromium-webview/prebuilt/arm
-170e899 Update Chromium Webview arm to 155.0.8059.39
-
-   * external/chromium-webview/prebuilt/arm64
-604ad4c Update Chromium Webview arm64 to 155.0.8059.39
-
-   * external/chromium-webview/prebuilt/x86
-2ca10d7 Update Chromium Webview x86 to 155.0.8059.39
-
-   * external/chromium-webview/prebuilt/x86_64
-de57895 Update Chromium Webview x86_64 to 155.0.8059.39
-
-   * packages/apps/Messaging
-94e96d5 Merge 'lineage-24.0' into 17.0
-
-   * vendor/addons
-f543ecbe addons: Update various sysconfig from komodo cp3a
-
-====================
-     10-09-2026
-====================
-
-   * vendor/lineage
-59a8e66 vendor: changelog.sh: Fix changelog generation
-
-====================
-     10-08-2026
-====================
-
-   * device/qcom/sepolicy_vndr/sm8750
-78d2d36 sepolicy_vndr: Add required policy for waipio on 6.6
-
-   * hardware/qcom-caf/sm8450-6.6/audio/primary-hal
-c9d01fc effects: Support effect destroy at any state
-
-   * packages/apps/SettingsIntelligence
-b6c48af SettingsIntelligence: Don't crash indexing on inaccessible providers
-
-   * vendor/apn
-35d822d apn: Remove YT and separate Palestinian APNs from IL
-
-====================
-     10-07-2026
-====================
-
-   * device/lineage/sepolicy
-0f74a5b sepolicy: Address denial for setting vbmeta prop
-
-   * external/chromium-webview/patches
-3847f83 Update Chromium Webview to 155.0.8059.39
-
-   * frameworks/av
-d457396 stagefright: Hide emitting non-AOSP symbol
-
-   * hardware/qcom-caf/common
-5e84e6f qcom: Add support for TARGET_NO_CAMERA_CUSTOM_FORMAT
-
-   * packages/apps/Aperture
-36b3be3 Automatic translation import
-
-   * packages/apps/AudioFX
-193fdf7 Automatic translation import
-
-   * packages/apps/Canvas
-115bed9 Automatic translation import
-
-   * packages/apps/Car/Settings
-fdb1419 Automatic translation import
-
-   * packages/apps/Catapult
-e357e75 Automatic translation import
-
-   * packages/apps/DeskClock
-5e49fdf Automatic translation import
-
-   * packages/apps/ExactCalculator
-108f08b ExactCalculator: Remove stale translation files
-
-   * packages/apps/Jelly
-8ba5afd Automatic translation import
-
-   * packages/apps/Recorder
-624957c Automatic translation import
-
-   * packages/apps/TvSettings
-f9a35ea Automatic translation import
-
-   * packages/apps/Twelve
-de4ff1b Automatic translation import
-
-   * packages/providers/DownloadProvider
-bde34d8 Automatic translation import
-
-   * packages/resources/devicesettings
-661fc40 Automatic translation import
-
-   * packages/services/Mms
-1a630ef Automatic translation import
-
-   * packages/services/OmniJaws
-c304570 Merge pull request #8 from 306bobby-android/17.0
-
-   * system/core
-2a87902 Revert "libprocessgroup: CgroupSetup should fail if a required controller fails to mount"
-
-   * system/sepolicy
-7b39d96 sepolicy: allow permissive backuptool on precompiled_sepolicy_without_vendor
-
-   * vendor/crowdin
-0b9e197 Automatic translation import
-
-   * vendor/qcom/opensource/commonsys/fm
-46bd9dc Automatic translation import
-
-   * vendor/qcom/opensource/usb
-0d32cd0 etc: Use maxburst instead of Mult for UVC streaming endpoint
-
-====================
-     10-06-2026
-====================
+823087d Merge 'lineage-24.0' into 17.0
 
    * bootable/recovery
-3f5bbfc recovery: Do not format /cache and /metadata with data_fstype
+0646ce4 recovery: Match back arrow hitbox to its drawn position
 
-   * development
-27a3ac3 Avoid OOM in ApiDemos PduParser by using stream skip
-
-   * device/qcom/sepolicy_vndr/legacy-um
-33df3b6 sepolicy_vndr: Globally allow using logdump partition as metadata
-
-   * device/qcom/sepolicy_vndr/sm8450
-a6bcda4 fixup! taro: Label additional read_ahead_kb node
-
-   * device/qcom/sepolicy_vndr/sm8550
-3246964 sepolicy: Add Power HAL as client of Display HAL
-
-   * device/qcom/sepolicy_vndr/sm8650
-3d37d21 sepolicy: Add Power HAL as client of Display HAL
-
-   * hardware/lineage/generic-ims
-e9c3590 ims: Sort soong namespace declaration
-
-   * hardware/qcom-caf/sm8250/display
-bf8aef1 gralloc: Protect new buffer allocation support for legacy camera
-
-====================
-     10-05-2026
-====================
-
-====================
-     10-04-2026
-====================
-
-   * hardware/nxp/nfc
-66ef2f3 Revert "Fix Use-After-Free in NXP NFC HAL timer teardown"
-
-   * hardware/qcom-caf/sm8450/audio/pal
-e60d689 Revert "ipc: Handle DSP metadata for non-tunnel streams"
-
-   * packages/apps/AppLocker
-065f2f5 strings: Added Russian translation
-
-   * packages/apps/Sandbox
-149b72c sandbox: Update repository link
-
-====================
-     10-03-2026
-====================
-
-   * frameworks/native
-1210cd4 Revert "fix statsd disabled spam"
-
-   * packages/apps/GameSpace
-3e325db New Crowdin updates (#159)
-
-====================
-     10-02-2026
-====================
+   * device/lineage/sepolicy
+d8f77f3 Merge 'lineage-24.0' into 17.0
 
    * device/motorola/fogo
-cfd497f Merge branch 'LineageOS:lineage-24.0' into lineage-24.0
+574b8c7 Merge branch 'LineageOS:lineage-24.0' into lineage-24.0
 
    * device/motorola/sm6375-common
-7b3402e Merge branch 'LineageOS:lineage-24.0' into lineage-24.0
+cef2be6 Merge branch 'LineageOS:lineage-24.0' into lineage-24.0
 
-   * frameworks/libs/systemui
-65eb5d7 iconloaderlib: Invalidate icon cache between OS releases
+   * frameworks/av
+bfd9660 CCodecBufferChannel: avoid API_SAME_INPUT_BUFFER for thumbnail sessions
+
+   * frameworks/base
+21a2fd02b New Crowdin updates (#1366)
+
+   * frameworks/native
+5104356 Add MTK GED KPI support to fix broken Mediatek gpufreq
+
+   * frameworks/opt/telephony
+5343b39 WapPush: validate WSP header length before allocation
+
+   * hardware/interfaces
+a10a565 Revert "health: expose updateChargerPresence for BatteryMonitor"
+
+   * packages/apps/Aperture
+5c52de5 Aperture: Update generatebp to v1.33
+
+   * packages/apps/Dialer
+9aff95e Merge 'lineage-24.0' into 17.0
+
+   * packages/apps/DocumentsUI
+8ccdfee Merge 'lineage-24.0' into 17.0
+
+   * packages/apps/Glimpse
+917f6d2 Merge 'lineage-24.0' into 17.0
+
+   * packages/apps/LineageParts
+2049e3d Merge 'lineage-24.0' into 17.0
+
+   * packages/apps/Messaging
+10cda4b Merge 'lineage-24.0' into 17.0
+
+   * packages/apps/OmniStyle
+051af97 OmniStyle: Migrate strings for updated translations
+
+   * packages/apps/Settings
+8ec0ca0 Settings: Add battery saver dark theme toggle to dark theme screen
+
+   * packages/apps/SetupWizard
+8395fd5 SUW: Switch to static logo
+
+   * packages/apps/ThemePicker
+616328d Merge 'lineage-24.0' into 17.0
+
+   * packages/apps/Updater
+9867d63 Updater: Show download speed with connections in download card
+
+   * packages/apps/WallpaperPicker2
+02f8ae8 Merge 'lineage-24.0' into 17.0
+
+   * packages/apps/crDroidSettings
+b2c025e Merge branch 'crdroidandroid:17.0' into 17.0
+
+   * packages/inputmethods/LatinIME
+e536f7e LatinIME: Enable emoji key by default
+
+   * packages/modules/Bluetooth
+f931ae1 gd: hci: Allow disabling erroneous data reporting
+
+   * packages/modules/Wifi
+98177c3 WifiSettingsConfigStore: Disallow WEP networks by default
+
+   * packages/resources/apps
+d6a6656 resources: Add strings for OmniStyle
+
+   * system/fs/fs_mgr
+8dba15c fs_mgr: Don't log missing f2fs linear_lookup sysfs entry
+
+   * vendor/lineage
+8edd1d2 crdroid: Bump to version 13.1
+
+====================
+     11-04-2026
+====================
+
+   * bionic
+dd42d69 custom_rom_hide: Preserve canonical proc paths for substituted files
+
+   * hardware/broadcom/wlan
+64ffcd8 wlan: Import firmware
+
+   * packages/apps/Launcher3
+017bd82 fixup! Launcher3: Treat built-in secondary displays like the primary display
+
+====================
+     11-03-2026
+====================
+
+   * build/soong
+cf0680a always use UTC as the time zone for build dates
+
+   * device/qcom/sepolicy_vndr/sm8750
+19dd1d9 sepolicy: add sun wakeup genfscon rules
+
+   * hardware/nxp/nfc
+0b8bf91 Fix infinite loop and logcat spam in NXP NFC HAL teardown
+
+   * packages/apps/Contacts
+c03937e Truncate existing vcf file when exporting contacts
+
+   * packages/providers/TelephonyProvider
+2920c39 Add checkSelection validation to updateInternal and deleteInternal
+
+   * system/gsid
+abcc9f7 gsid: Reject reserved names and validate slot name in openInstall
+
+====================
+     11-02-2026
+====================
+
+   * hardware/qcom-caf/thermal
+e2ff2bb thermal-hal: Drop the boot-time restart
+
+====================
+     11-01-2026
+====================
+
+   * hardware/broadcom/libbt
+afc721c bt: Import firmware
+
+   * packages/apps/AudioFX
+f7e26b3 Automatic translation import
+
+   * packages/apps/Canvas
+0ade20a Automatic translation import
+
+   * packages/apps/Car/Settings
+9a3e678 Automatic translation import
+
+   * packages/apps/Catapult
+5cc047c Automatic translation import
+
+   * packages/apps/DeskClock
+bab0cde Automatic translation import
+
+   * packages/apps/ExactCalculator
+f76cfbe Automatic translation import
+
+   * packages/apps/Jelly
+604fa77 Automatic translation import
+
+   * packages/apps/TvSettings
+70a89f8 Automatic translation import
+
+   * packages/apps/Twelve
+f701f1f Automatic translation import
+
+   * packages/resources/devicesettings
+a33069c Automatic translation import
+
+   * system/core
+768ea65 init: Check before assuming property set is successful
+
+   * vendor/crowdin
+9c0293f Automatic translation import
+
+====================
+     10-31-2026
+====================
+
+   * device/qcom/sepolicy
+a8385f3 generic: Allow dumping the audio HAL extension service
+
+====================
+     10-30-2026
+====================
+
+   * vendor/motorola/fogo
+835d9e6 fogo: Update to V1UFNS35H.193-20-17
+
+====================
+     10-29-2026
+====================
+
+   * lineage-sdk
+493d0ef lineage-sdk: Harden LineageHardwareManager against HAL errors
+
+====================
+     10-28-2026
+====================
+
+   * hardware/motorola
+fcc844c Merge branch 'LineageOS:lineage-24.0' into lineage-24.0
+
+   * packages/services/Telecomm
+1d2ddee Telecomm: Phone ringtone setting for Multi SIM device [3/3]
+
+====================
+     10-27-2026
+====================
+
+   * hardware/qcom-caf/sm8450/audio/pal
+2b80768 pal: Add an option to prefer master gain for equal channel volumes
+
+   * vendor/addons
+f4650fbd addons: Remove overlay colors
+
+   * vendor/apn
+7693bb9 apn: Support Python 3.8
 
