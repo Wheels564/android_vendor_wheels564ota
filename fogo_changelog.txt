@@ -2,6 +2,34 @@
      11-05-2026
 ====================
 
+   * device/motorola/fogo
+574b8c7 Merge branch 'LineageOS:lineage-24.0' into lineage-24.0
+
+   * device/motorola/sm6375-common
+cef2be6 Merge branch 'LineageOS:lineage-24.0' into lineage-24.0
+
+   * frameworks/base
+8efa756b7 core: pif: Fix inconsistent first-API-level props
+
+   * packages/apps/OmniStyle
+051af97 OmniStyle: Migrate strings for updated translations
+
+   * packages/apps/Settings
+72c1097 Refactor BuildMaintainerPreference for simplicity
+
+   * packages/apps/crDroidSettings
+b2c025e Merge branch 'crdroidandroid:17.0' into 17.0
+
+   * packages/inputmethods/LatinIME
+e536f7e LatinIME: Enable emoji key by default
+
+   * packages/resources/apps
+d6a6656 resources: Add strings for OmniStyle
+
+====================
+     11-04-2026
+====================
+
    * android
 823087d Merge 'lineage-24.0' into 17.0
 
@@ -11,23 +39,17 @@
    * device/lineage/sepolicy
 d8f77f3 Merge 'lineage-24.0' into 17.0
 
-   * device/motorola/fogo
-574b8c7 Merge branch 'LineageOS:lineage-24.0' into lineage-24.0
-
-   * device/motorola/sm6375-common
-cef2be6 Merge branch 'LineageOS:lineage-24.0' into lineage-24.0
-
    * frameworks/av
 bfd9660 CCodecBufferChannel: avoid API_SAME_INPUT_BUFFER for thumbnail sessions
-
-   * frameworks/base
-8efa756b7 core: pif: Fix inconsistent first-API-level props
 
    * frameworks/native
 5104356 Add MTK GED KPI support to fix broken Mediatek gpufreq
 
    * frameworks/opt/telephony
 5343b39 WapPush: validate WSP header length before allocation
+
+   * hardware/broadcom/wlan
+64ffcd8 wlan: Import firmware
 
    * hardware/interfaces
 a10a565 Revert "health: expose updateChargerPresence for BatteryMonitor"
@@ -50,12 +72,6 @@ a10a565 Revert "health: expose updateChargerPresence for BatteryMonitor"
    * packages/apps/Messaging
 10cda4b Merge 'lineage-24.0' into 17.0
 
-   * packages/apps/OmniStyle
-051af97 OmniStyle: Migrate strings for updated translations
-
-   * packages/apps/Settings
-1d940c8 Update OTA JSON URL for firmware version
-
    * packages/apps/SetupWizard
 8395fd5 SUW: Switch to static logo
 
@@ -68,33 +84,17 @@ a10a565 Revert "health: expose updateChargerPresence for BatteryMonitor"
    * packages/apps/WallpaperPicker2
 02f8ae8 Merge 'lineage-24.0' into 17.0
 
-   * packages/apps/crDroidSettings
-b2c025e Merge branch 'crdroidandroid:17.0' into 17.0
-
-   * packages/inputmethods/LatinIME
-e536f7e LatinIME: Enable emoji key by default
-
    * packages/modules/Bluetooth
 f931ae1 gd: hci: Allow disabling erroneous data reporting
 
    * packages/modules/Wifi
 98177c3 WifiSettingsConfigStore: Disallow WEP networks by default
 
-   * packages/resources/apps
-d6a6656 resources: Add strings for OmniStyle
-
    * system/fs/fs_mgr
 8dba15c fs_mgr: Don't log missing f2fs linear_lookup sysfs entry
 
    * vendor/lineage
 8edd1d2 crdroid: Bump to version 13.1
-
-====================
-     11-04-2026
-====================
-
-   * hardware/broadcom/wlan
-64ffcd8 wlan: Import firmware
 
 ====================
      11-03-2026
@@ -134,9 +134,6 @@ e2ff2bb thermal-hal: Drop the boot-time restart
 ====================
      11-01-2026
 ====================
-
-   * hardware/broadcom/libbt
-afc721c bt: Import firmware
 
    * packages/apps/AudioFX
 f7e26b3 Automatic translation import
@@ -178,22 +175,22 @@ a33069c Automatic translation import
      10-31-2026
 ====================
 
-   * device/qcom/sepolicy
-a8385f3 generic: Allow dumping the audio HAL extension service
+   * hardware/broadcom/libbt
+afc721c bt: Import firmware
 
 ====================
      10-30-2026
 ====================
 
-   * vendor/motorola/fogo
-835d9e6 fogo: Update to V1UFNS35H.193-20-17
+   * device/qcom/sepolicy
+a8385f3 generic: Allow dumping the audio HAL extension service
 
 ====================
      10-29-2026
 ====================
 
-   * lineage-sdk
-493d0ef lineage-sdk: Harden LineageHardwareManager against HAL errors
+   * vendor/motorola/fogo
+835d9e6 fogo: Update to V1UFNS35H.193-20-17
 
 ====================
      10-28-2026
@@ -202,15 +199,15 @@ a8385f3 generic: Allow dumping the audio HAL extension service
    * hardware/motorola
 fcc844c Merge branch 'LineageOS:lineage-24.0' into lineage-24.0
 
-   * packages/services/Telecomm
-1d2ddee Telecomm: Phone ringtone setting for Multi SIM device [3/3]
+   * lineage-sdk
+493d0ef lineage-sdk: Harden LineageHardwareManager against HAL errors
 
 ====================
      10-27-2026
 ====================
 
-   * hardware/qcom-caf/sm8450/audio/pal
-2b80768 pal: Add an option to prefer master gain for equal channel volumes
+   * packages/services/Telecomm
+1d2ddee Telecomm: Phone ringtone setting for Multi SIM device [3/3]
 
    * vendor/addons
 f4650fbd addons: Remove overlay colors
